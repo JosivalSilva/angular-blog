@@ -1,0 +1,7 @@
+{
+  "editor.tabSize": 2,
+  "css.completion.completePropertyWithSemicolon": true,
+  "css.format.newlineBetweenRules": true,
+  "editor.renderFinalNewline": "dimmed",
+  "editor.scrollBeyondLastLine": true
+}

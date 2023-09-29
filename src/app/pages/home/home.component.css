@@ -1,3 +1,9 @@
+header {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
 .container_articles {
   display: flex;
   flex-direction: row;
@@ -13,6 +19,6 @@
 }
 
 .articles_others > hr {
-  border: solid .1rem #ffffff80;
+  border: .1rem solid #ffffff80;
   margin-bottom: .7rem;
 }
