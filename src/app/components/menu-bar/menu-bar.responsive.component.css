@@ -1,0 +1,23 @@
+
+.container_menu-bar > ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.container_menu-bar > ul > li {
+  margin-right: 20px;
+  list-style: none;
+}
+
+a {
+  font-size: 40px;
+  color: #fff;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: blueviolet;
+}

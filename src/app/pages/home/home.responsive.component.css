@@ -1,0 +1,24 @@
+header {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.container_articles {
+  display: flex;
+  flex-direction: row;
+}
+
+.articles_main {
+  width: 50%;
+}
+
+.articles_others {
+  width: 50%;
+  padding-top: 2rem;
+}
+
+.articles_others > hr {
+  border: .1rem solid #ffffff80;
+  margin-bottom: .7rem;
+}
