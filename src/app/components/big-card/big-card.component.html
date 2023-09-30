@@ -1,9 +1,5 @@
 <div class="container__big-card">
   <div class="big-card_photo">
-    <!-- <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAK0AAAB5CAMAAAB83lFIAAAAQlBMVEWZmZn///+YmJjr6+u6urr7+/ukpKT29vagoKCysrKVlZWSkpLa2trm5ubz8/OcnJyrq6vBwcHU1NTIyMjg4ODOzs5iAJTnAAADfElEQVR4nO2a67aiMAyFMVyElLv4/q96dDw6AuklLdXOrOzfxH6rtjsXyDKRSCQSiUQi0bcFCJiQLLB1kZQGIy02p5R0rkFoI0lo40lo40lo40lo4ykN2vJ06ru2bbvzv0B7WpoaFCJUU588bTcqeGCAUpNhf1OgbYe3uhVw1G9vArSLWiOoSov7fdp82BLgmC5ts29f1Jwqbaf2q4LuLHyddqI6Q7WkSdtX1PqqSJN2f8fugipN2o5cHgahDVdO08Y6CaWlbLKIvmUY65bNTRmEW5AO1sahPVcq7LAsVHaoI2WHq9Kao6MqIvNeNM8G0vYZ6L3cTR3sqhrNHQumvaBxL5x03ZwFzLo4tPnvv6imENwZ3g8D6g5tMG3x3Ba8huAu9bMgB1SNoTMLon1LRCoIt5zHW0d2U11oqq8DaJu/sYC6CtqRN1+ulzlmh76yStA5+pEKoC3HVShAfNwA2nlj64Ba5/k+bZltIyEzXpGv0s77BA+QJ0qbUy/aAGyHIQ+q2LxpyV5VXz09l8uCsp4vba/oOKiMh2FSqgko331pySL6T4Rh6Hbqbg8YU2sc2k7/Nhsr/eaN9zAcvO+iJ+1oePeOow63fdgIDr5O50e7GD8UQE2rdn62Cd5Z2ot2k3N3UgW5u9PLocGzIPaibYnOzx52xrel0AvXh9YS89jdfdh6UKsMl/FQ2qvl8xZ677ZnHc3OfBRtvytnKG07y3LXiXtYgwftZDu1v6FrXLII4loDnzZ3Ys02rVpPzmm5rT2fVptz98FvuAX5h9ycjFWTsWlzt3PwgHn9053uEcUa+nFpS+KFkZ72lbP0UWpkWAOXtmXA3svdx7WnBomvJWp3XC6tPTGscVVnXYRRNTBpCR+y4Nbdc7anf8Z5csKjpefuZhTV92iLcrUGHu2Fu7V33NHhYjpaA4v2bN0k8jdcLqYyNUh+tHSfe4wwc7AGDm3uVM74Cga7NXBoOYnBB9c+smbQGvrcg4S2IsedtjT1uQfJNhpxp417ap+4Zmtg0O7ea8WQeTTCoPUyWw9cQ/+THK2xyEmP9uZk2llDgrT3aYSmakiS9mYNtJOlSasbjSRKmyFQ1pAqLd1QsGg/K6KhYNBWn1Z92eIyarDy49oZw7e/XuNJaONJaONJaOPpv6KFJk9JXW2CvfNmHy4PTLKwikQikUgkEok+oB/W51HRJ1Z6pgAAAABJRU5ErkJggg=="
-    alt=""
-    height="350px"
-    > -->
     <img src="{{ photoCover }}"
     alt=""
     height="350px"
@@ -13,11 +9,11 @@
     <span>17 jul, 2023</span>
   </div>
   <div class="big-card_title">
-    <h1><a href="#">{{ cardTitle }}</a></h1>
+    <h1><a [routerLink]="['content', Id]">{{ cardTitle }}</a></h1>
   </div>
   <div class="big-card_description">
     <p>
-      <a href="#">{{ cardDescription}}</a>
+      <a  [routerLink]="['content', Id]">{{ cardDescription}}</a>
     </p>
   </div>
 </div>
